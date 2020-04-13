@@ -1,4 +1,5 @@
 ﻿using System;
+using GolfettoFramework.Core.HttpUtilities;
 
 namespace GolfettoFramework.ConsoleTests
 {
@@ -6,7 +7,15 @@ namespace GolfettoFramework.ConsoleTests
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Vamos fazer um get");
+
+            var req = new SimpleRequest();
+
+            var resultado = req.GetString("http://copafilmes.azurewebsites.net/api/filmes");
+
+            Console.WriteLine(resultado);
+            Console.WriteLine("Fim de jogo");
+            Console.ReadKey();
         }
     }
 }

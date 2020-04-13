@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfettoFramework.ConsoleTests", "GolfettoFramework.ConsoleTests\GolfettoFramework.ConsoleTests.csproj", "{FD93EFB2-EBAB-4802-A12B-FB07011B9E4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolfettoFramework.Core", "GolfettoFramework.Core\GolfettoFramework.Core.csproj", "{596707F8-C07A-4756-B23A-AF81EA207D7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{FD93EFB2-EBAB-4802-A12B-FB07011B9E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD93EFB2-EBAB-4802-A12B-FB07011B9E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD93EFB2-EBAB-4802-A12B-FB07011B9E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596707F8-C07A-4756-B23A-AF81EA207D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596707F8-C07A-4756-B23A-AF81EA207D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596707F8-C07A-4756-B23A-AF81EA207D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596707F8-C07A-4756-B23A-AF81EA207D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
